@@ -2,3 +2,13 @@ data/
 .ipynb_checkpoints/
 .DS_Store/
 twitter-scraper/
+adam/TwitterScraperInstance_cali.ipynb
+adam/datasets/scrape_dm_cali.csv
+adam/datasets/scrape_dm_mich.csv
+adam/datasets/scrape_dm_ny.csv
+adam/datasets/scrape_dm_texas.csv
+adam/TwitterScraperInstance_mich.ipynb
+adam/TwitterScraperInstance_ny.ipynb
+adam/TwitterScraperInstance_ohio copy.ipynb
+adam/TwitterScraperInstance_ohio.ipynb
+adam/TwitterScraperInstance_texas.ipynb
