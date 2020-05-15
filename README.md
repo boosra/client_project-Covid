@@ -3,10 +3,10 @@
 ## Table of Contents
 ### Team:
 ### Problem Statement  
-When the COVID-19 pandemic is running rampant, current information is paramount for staying safe. Graphs and models are created daily, producing figures relied on by hospitals and government agencies. Although this data is official, it does not tell the entire story of outbreak impact. On social media, specifically Twitter, people are talking about their experience with COVID-19.  
-  
-As a team of data scientists working for the CDC, we are tasked with creating a model that can dynamically classify Tweets as COVID-related. To solve this unsupervised learning problem we will train a w2v vectorizer on COVID-19 related tweets and use the weights of those words in a DBscan cluster. We will then check the Tweet clusters to assess relationships, and determine which clusters are our targets.  
-  
+When the COVID-19 pandemic is running rampant, current information is paramount for staying safe. Graphs and models are created daily, producing figures relied on by hospitals and government agencies. Although this data is official, it does not tell the entire story of outbreak impact. On social media, specifically Twitter, people are talking about their experience with COVID-19, potentially indicating COVID impact sites before they become apparent medically.
+
+As a team of data scientists working for New Light Technologies, we are tasked with creating a model that can dynamically classify Tweets as COVID-related. To solve this unsupervised learning problem we will train a w2v vectorizer on COVID-19 related tweets and use the weights of those words in a DBscan cluster. We will then check the Tweet clusters to assess relationships, and determine which clusters are our targets and where the Tweets originated from.
+
 ### Executive Summary  
 Our data was pulled from Twitter using the twitterscraper Python library and a custom wrapper function. We prepared two datasets separately, one with high bias based on targeted terms to get 100k tweets specifically related to COVID-19, and one with high variance using 50 randomly generated terms to get 200k "random" sampling of Tweets, then combined the bias and variance sets to create a final testing set. We additionally ran the two datasets through two cleaners, one to purge duplicate tweets that may have been caught multiple times during the query process, and one to remove common stopwords from the tweet text.  
   
