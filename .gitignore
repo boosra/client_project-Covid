@@ -1,5 +1,8 @@
 data/
 .ipynb_checkpoints/
-.DS_Store
+.DS_Store/
 twitter-scraper/
+adam/
+najiha/
+max/
 personal_files/
